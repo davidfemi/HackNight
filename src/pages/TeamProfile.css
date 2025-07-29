@@ -1,0 +1,176 @@
+.team-profile {
+  min-height: 100vh;
+  padding: 2rem 0 4rem;
+  background: #0a0a0a;
+}
+
+.profile-not-found {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.95rem;
+  margin-bottom: 3rem;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #ffffff;
+}
+
+.profile-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.profile-image-section {
+  position: sticky;
+  top: 120px;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.profile-info {
+  padding: 1rem 0;
+}
+
+.profile-name {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  line-height: 1.1;
+}
+
+.profile-role {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.profile-bio {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 3rem;
+}
+
+.skills-section {
+  margin-bottom: 3rem;
+}
+
+.skills-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skill-tag {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.contact-section {
+  margin-bottom: 2rem;
+}
+
+.contact-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.contact-link:hover {
+  background: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+}
+
+@media (max-width: 968px) {
+  .profile-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .profile-image-section {
+    position: static;
+    justify-self: center;
+  }
+  
+  .profile-image {
+    max-width: 300px;
+  }
+  
+  .profile-name {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .profile-role {
+    text-align: center;
+  }
+}
+
+@media (max-width: 568px) {
+  .profile-name {
+    font-size: 2rem;
+  }
+  
+  .contact-links {
+    justify-content: center;
+  }
+} 

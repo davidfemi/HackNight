@@ -1,0 +1,41 @@
+.team-page {
+  min-height: 100vh;
+  background: #0a0a0a;
+}
+
+.team-page-header {
+  text-align: center;
+  padding: 6rem 0 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.page-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .team-page-header {
+    padding: 4rem 0 2rem;
+  }
+  
+  .page-title {
+    font-size: 2.5rem;
+  }
+  
+  .page-description {
+    font-size: 1rem;
+  }
+} 
