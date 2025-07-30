@@ -12,12 +12,12 @@ export const teamMembers = [
   },
   {
     id: 2,
-    name: "David",
-    role: "Developer",
-    image: "/images/femi.png",
-    bio: "David is a passionate developer with expertise in building scalable web applications and solving complex technical challenges. He enjoys working with modern technologies and contributing to open-source projects. When not coding, David loves exploring new tech trends and collaborating with fellow developers.",
-    skills: ["JavaScript", "React", "Node.js"],
-    github: "https://github.com/davidfemi",
-    email: "david@hacknight.dev"
+    name: "Brian",
+    role: "human man",
+    image: "/images/Brian.png",
+    bio: "Brian does the best he can with the limited skills he has.",
+    skills: ["Looking at Kibana"],
+    github: "https://github.com/bmbranca",
+    email: "brian@hacknight.dev"
   }
 ];
