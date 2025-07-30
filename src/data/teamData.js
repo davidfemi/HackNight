@@ -1,6 +1,5 @@
 export const teamMembers = [
   // Add your Hack Night team members here!
-  // Example format:
   {
     id: 1,
     name: "Femi",
