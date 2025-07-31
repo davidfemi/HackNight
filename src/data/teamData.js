@@ -29,5 +29,25 @@ export const teamMembers = [
   skills: ["being confused"],
   github: "https://github.com/sidneymgomez",
   email: "sidney@hacknight.dev"
-}
+},
+  {
+  id: 6969,
+  name: "roulduke719",
+  role: "PizzaEater",
+  image: "/image/Raph_PizzaCouchGD.jpg",
+  bio: "I herald your begining, i hearld your end, i hearld Pizzaeater.",
+  skills: ["making pizza", "eatingpizza"],
+  github: "https://github.com/roulduke719",
+  email: "pizza@hacknight.dev"
+},
+
+  {    id: 3,
+    name: "Sayam",
+    role: "dog man",
+    image: "/images/sayam-profile.jpeg",
+    bio: "word",
+    skills: ["labubu hater"],
+    github: "https://sayamkim.com",
+    email: "sayam@ihatelabubu.com"
+  }
 ];
