@@ -19,5 +19,15 @@ export const teamMembers = [
     skills: ["Looking at Kibana"],
     github: "https://github.com/bmbranca",
     email: "brian@hacknight.dev"
-  }
+  },
+  {
+  id: 967,
+  name: "Sidney M. Gomez",
+  role: "Island Girl",
+  image: "/images/IMG_6770.jpg",
+  bio: "HEY!! Hey! hey",
+  skills: ["being confused"],
+  github: "https://github.com/sidneymgomez",
+  email: "sidney@hacknight.dev"
+}
 ];
