@@ -21,6 +21,15 @@ export const teamMembers = [
     email: "brian@hacknight.dev"
   },
   {
+    id: 900,
+    name: "Paul",
+    role: "TSE",
+    image: "/images/tinystallone.png",
+    bio: "Always face your problems no matter how tiny.",
+    skills: ["smiling", "being tiny", "looking like a rockstar"],
+    github: "https://github.com/paul",
+    email: "paul@hacknight.dev"},
+{
   id: 967,
   name: "Sidney M. Gomez",
   role: "Island Girl",
