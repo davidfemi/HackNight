@@ -19,5 +19,15 @@ export const teamMembers = [
     skills: ["Looking at Kibana"],
     github: "https://github.com/bmbranca",
     email: "brian@hacknight.dev"
-  }
-];
+  },
+  {
+  id: 6969,
+  name: "roulduke719",
+  role: "PizzaEater",
+  image: "/image/Raph_PizzaCouchGD.jpg",
+  bio: "I herald your begining, i hearld your end, i hearld Pizzaeater.",
+  skills: ["making pizza", "eatingpizza"],
+  github: "https://github.com/roulduke719",
+  email: "pizza@hacknight.dev"
+}
+]
