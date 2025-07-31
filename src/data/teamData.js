@@ -34,7 +34,7 @@ export const teamMembers = [
   id: 6969,
   name: "roulduke719",
   role: "PizzaEater",
-  image: "/image/Raph_PizzaCouchGD.jpg",
+  image: "/images/Raph_PizzaCouchGD.jpg",
   bio: "I herald your begining, i hearld your end, i hearld Pizzaeater.",
   skills: ["making pizza", "eatingpizza"],
   github: "https://github.com/roulduke719",
